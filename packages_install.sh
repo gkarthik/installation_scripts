@@ -15,7 +15,7 @@ pacman -S i3
 # Wifi
 pacman -S dialog wpa_supplicant wifi-menu
 # Applications
-pacman -S terminator firefox alsa-utils docker openconnect ranger flameshot borg libreoffice-still htop
+pacman -S terminator firefox alsa-utils docker openconnect ranger flameshot borg libreoffice-still htop apvlv
 # Languages and utils
 pacman -S base-devel python python-pip r git emacs rsync openssh keepassxc tk jdk-openjdk gdb valgrind tmux
 pip install --user numpy scipy sklearn pandas matplotlib requests biopython
