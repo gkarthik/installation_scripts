@@ -15,9 +15,9 @@ pacman -S i3
 # Wifi
 pacman -S dialog wpa_supplicant wifi-menu
 # Applications
-pacman -S terminator firefox alsa-utils docker
+pacman -S terminator firefox alsa-utils docker openconnect
 # Languages and utils
-pacman -S base-devel python python-pip r git emacs rsync openssh keepassxc tk jdk-openjdk gdb valgrind
+pacman -S base-devel python python-pip r git emacs rsync openssh keepassxc tk jdk-openjdk gdb valgrind tmux
 pip install --user numpy scipy sklearn pandas matplotlib requests biopython
 # Yay for AUR
 git clone https://aur.archlinux.org/yay.git
@@ -29,4 +29,4 @@ run_keybase
 # Install fonts
 yay -S ttf-iosevka
 # Eclipse
-yay -S eclipse-java
+pacman -S eclipse-java
